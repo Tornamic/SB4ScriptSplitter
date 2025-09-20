@@ -62,7 +62,7 @@ namespace SB4ScriptSplitter
                     {
                         for (int j = i; j >= 0; j--)
                         {
-                            if (lines[j].TrimStart().StartsWith(":"+scriptName))
+                            if (lines[j].Trim() == ":"+scriptName)
                             {
                                 Console.WriteLine(lines[j]);
                                 labelLine = j;
