@@ -6,13 +6,13 @@ Small desc:
 
 - Detects all script_name blocks.
 
-- Saves each script into scripts/<name>.txt.
+- Saves each script into `scripts/<name>.txt`.
 
-- Rewrites main.txt with $INCLUDE references.
+- Rewrites `main.txt` with `$INCLUDE` references.
 
 Usage
 
-1. Set the path to your main.txt in Program.cs.
+1. Set the path to your `main.txt` in `Program.cs`.
 
 2. Run the program.
 
